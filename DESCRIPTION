@@ -1,6 +1,6 @@
 Package: openMSE
 Title: Easily Install and Load the 'openMSE' Packages
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: c(
   person("Adrian", "Hordyk", 
          role = c("aut", "cre"),
@@ -21,18 +21,19 @@ Description: The 'openMSE' package is designed for building operating models,
     'openMSE', users have access to the full functionality contained within
     these packages. Learn more about 'openMSE' at <https://openmse.com/>.
 License: GPL-3
-URL: https://openmse.com/, https://github.com/Blue-Matter/openMSE
+URL: https://openmse.com/, https://github.com/Blue-Matter/openMSE,
+        https://openMSE.openMSE.com
 BugReports: https://github.com/Blue-Matter/openMSE/issues
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
-Depends: R (>= 4.0.0), MSEtool (>= 3.0.0), DLMtool (>= 6.0.0), SAMtool
-Imports: crayon
+RoxygenNote: 7.3.2
+Depends: R (>= 4.0.0), MSEtool (>= 3.7.0), DLMtool (>= 6.0.0), SAMtool
+Imports: crayon, dplyr, purrr, ggplot2, grid, tidyr
 NeedsCompilation: no
-Packaged: 2021-02-02 03:00:16 UTC; Adrian
+Packaged: 2024-09-24 16:17:35 UTC; User
 Author: Adrian Hordyk [aut, cre] (<https://orcid.org/0000-0001-5620-3446>),
   Quang Huynh [aut],
   Tom Carruthers [aut]
 Maintainer: Adrian Hordyk <adrian@bluematterscience.com>
 Repository: CRAN
-Date/Publication: 2021-02-08 09:20:02 UTC
+Date/Publication: 2024-09-24 16:30:02 UTC
